@@ -1,0 +1,23 @@
+{
+    "name": "eristemena/travis-test",
+    "description": "Travis Test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eris Ristemena",
+            "email": "e.ristemena@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eristemena\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
