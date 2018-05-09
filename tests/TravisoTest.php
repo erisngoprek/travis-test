@@ -18,4 +18,11 @@ class TravisoTest extends TestCase
 
         $this->assertEquals(2, $traviso->add(1, 1));
     }
+
+    public function testSubstract()
+    {
+        $traviso = new Traviso();
+
+        $this->assertEquals(2, $traviso->substract(3, 1));
+    }
 }
