@@ -25,4 +25,11 @@ class TravisoTest extends TestCase
 
         $this->assertEquals(2, $traviso->substract(3, 1));
     }
+
+    public function testEven()
+    {
+        $traviso = new Traviso();
+
+        $this->assertTrue($traviso->isEven(6));
+    }
 }

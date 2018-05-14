@@ -23,4 +23,9 @@ class Traviso
     {
         return $a * $b;
     }
+
+    public function isEven($a)
+    {
+        return $a % 2 == 0;
+    }
 }
